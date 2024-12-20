@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="demo.TakesSreenshot">
         <methods>
           <include name="publi"/>
         </methods>
       </class> <!-- demo.TakesSreenshot -->
+=======
+      <class name="datadriventesting.LearnParameterization">
+        <methods>
+          <include name="learnPara"/>
+        </methods>
+      </class> <!-- datadriventesting.LearnParameterization -->
+>>>>>>> branch 'master' of https://github.com/prasad21199/Tiger.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
